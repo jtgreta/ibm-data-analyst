@@ -1,0 +1,64 @@
+# ── Environment ────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Jupyter ────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Credentials & secrets ──────────────────────────────────────
+credentials.json
+*.p12
+*.pem
+*.key
+*.p8
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDEs / editors ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ───────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Data / export files ────────────────────────────────────────
+*.csv
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
+*.xls
+*.xml
+*.db
+*.db-journal
+*.sqlite3
