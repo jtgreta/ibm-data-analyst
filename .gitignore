@@ -52,6 +52,7 @@ logs/
 
 # ── Data / export files ────────────────────────────────────────
 *.csv
+*.tsv
 *.xlsx
 *.xlsm
 *.xlsb
@@ -59,6 +60,58 @@ logs/
 *.xltm
 *.xls
 *.xml
+*.jsonl
+*.ndjson
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.avro
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+*.sav
+*.sas7bdat
+*.dta
+*.rds
+*.rda
+*.txt
+
+# ── SQL databases (and sidecar files) ──────────────────────────
 *.db
-*.db-journal
+*.db3
+*.s3db
+*.sl3
+*.sqlite
 *.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db-journal
+*.db-wal
+*.db-shm
+*.mdb
+*.accdb
+
+# ── Large downloaded/generated data artifacts ──────────────────
+jobs.json
+
+# ── Images ─────────────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.ico
+*.svg
+*.heic
+*.heif
+*.raw
+*.psd
+*.ai
+*.eps
