@@ -98,6 +98,11 @@ logs/
 # ── Large downloaded/generated data artifacts ──────────────────
 jobs.json
 
+# ── Presentations ──────────────────────────────────────────────
+*.pptx
+!data_analyst_capstone_project_report_final.pptx
+!ibm_data_analyst_capstone_project_report_final.pdf
+
 # ── Images ─────────────────────────────────────────────────────
 *.png
 *.jpg
